@@ -1,0 +1,30 @@
+Mid Course Assignment: Review
+
+Description
+
+Create a new project in tool of choice, LastnameFirstInitialmid for this assignment. 
+You will need to define the following classes.
+
+Develop a class called Rot13 that has a utility method called encrypt that takes a String as its parameter. 
+The encrypt method encodes each character of the String parameter using the rot13 substitution cipher which 
+simple "Rotates" each letter 13 places through the alphabet, wrapping around from Z back to A when necessary. 
+Non-alphabetic characters are not altered.
+Place Rot13 class in a package called edu.washington.midcourse.util
+Next, create a Test class called Rot13Test and verify that encrypt method ofRot13 class does the requirements 
+defined above using the following String: "Hello there. Testing, testing!" the validate return String is 
+"Uryyb gurer. Grfgvat, grfgvat!"
+
+Last step
+
+write an application/class called Main and contains the method to allow running from the dos/shell commandline. 
+The application takes one parameter which is a String. An example
+java Main "Hello there. Testing, testing!"
+
+But place the Main class in the following package called edu.washington.midcourse, which changes how you run 
+java at the commandline from the example above.
+Goto the dos/shell commandline and run Main. Pass in the following string that is used above, then capture the 
+information and place into a file called console.txt in the project.
+What to turn in
+
+Zip the project directory of the assignment. Some tools like eclipse can export as an archive.
+Submit this file per the assignment submission instructions.
