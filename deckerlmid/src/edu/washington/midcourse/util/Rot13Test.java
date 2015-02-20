@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class Rot13Test {
+	private static final String TEST_STRING = "Hello there. Testing, testing!";
+	private static final String TEST_STRING_ENCRYPTED = "Uryyb gurer. Grfgvat, grfgvat!";
 
 	@Before
 	public void setUp() throws Exception {
@@ -13,7 +15,7 @@ public class Rot13Test {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(Rot13.encrypt(TEST_STRING), TEST_STRING_ENCRYPTED);
 	}
 
 }
