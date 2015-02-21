@@ -1,11 +1,7 @@
-//make a change
-// make another change
-//  a third change
 package edu.washington.midcourse.util;
 
 public class Rot13 {
 	public static String encrypt(String str){
-
 		char[] values = str.toCharArray();
 		for (int i = 0; i < values.length; i++) {
 		    char letter = values[i];

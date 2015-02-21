@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class Rot13Test {
+	
 	private static final String TEST_STRING = "Hello there. Testing, testing!";
 	private static final String TEST_STRING_ENCRYPTED = "Uryyb gurer. Grfgvat, grfgvat!";
 
