@@ -1,6 +1,17 @@
 package edu.washington.midcourse.util;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Rot13.
+ */
 public class Rot13 {
+	
+	/**
+	 * Encrypt.
+	 *
+	 * @param str the str
+	 * @return the string
+	 */
 	public static String encrypt(String str){
 		char[] values = str.toCharArray();
 		for (int i = 0; i < values.length; i++) {
