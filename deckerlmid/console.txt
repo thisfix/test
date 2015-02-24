@@ -1,0 +1,5 @@
+Luke-Deckers-MacBook-Pro:~ thisfix$ export CLASSPATH=$CLASSPATH:.:/Users/thisfix/git/deckerlmid/deckerlmid/src/edu/washington/midcourse/:./util:/Users/thisfix/git/deckerlmid/deckerlmid/src/edu/washington/midcourse/Main.jar 
+Luke-Deckers-MacBook-Pro:~ thisfix$ java edu.washington.midcourse.Main "Hello there. Testing, testing\!"
+Standard String = Hello there. Testing, testing\!
+Encrypted String = Uryyb gurer. Grfgvat, grfgvat\!
+Luke-Deckers-MacBook-Pro:~ thisfix$ 
