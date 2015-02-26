@@ -16,6 +16,13 @@ public class Rot13Test {
 	
 	/** The Constant TEST_STRING_ENCRYPTED. */
 	private static final String TEST_STRING_ENCRYPTED = "Uryyb gurer. Grfgvat, grfgvat!";
+	
+	/** The Constant TEST_STRING_EMPTY. */
+	private static final String TEST_STRING_EMPTY = "";
+	
+	/** The Constant TEST_STRING_UNCHANGED_CHARACTERS. */
+	private static final String TEST_STRING_UNCHANGED_CHARACTERS = "1234567890!@#$%^&*()_+{}[]`~.,<>";
+	
 
 	/**
 	 * Sets the up.
@@ -32,6 +39,8 @@ public class Rot13Test {
 	@Test
 	public void test() {
 		assertEquals(Rot13.encrypt(TEST_STRING), TEST_STRING_ENCRYPTED);
+		assertEquals(Rot13.encrypt(TEST_STRING_EMPTY), TEST_STRING_EMPTY);
+		assertEquals(Rot13.encrypt(TEST_STRING_UNCHANGED_CHARACTERS), TEST_STRING_UNCHANGED_CHARACTERS);
 	}
 
 }
