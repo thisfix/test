@@ -14,10 +14,14 @@ public class Main {
 	 * @param args the arguments
 	 */
 	public static void main(String[] args){
-		String encryptedString = "";
-		encryptedString = Rot13.encrypt(args[0]);
-		System.out.println("Standard String = "+args[0]);
-		System.out.println("Encrypted String = "+encryptedString);
+		if (args.length > 1){
+			System.out.println("Please enter only one arguement");
+		} else {
+			String encryptedString = "";
+			encryptedString = Rot13.encrypt(args[0]);
+			System.out.println("Standard String = "+args[0]);
+			System.out.println("Encrypted String = "+encryptedString);
+		}
 	}
 
 }
